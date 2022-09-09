@@ -1,0 +1,22 @@
+:root {
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  --primary-color: #6979f8;
+  --primary-color-hover: #a5affb;
+  --second-color: #be52f2;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  margin: 0;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+}
