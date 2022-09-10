@@ -3,9 +3,18 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  --primary-color: #6979f8;
-  --primary-color-hover: #a5affb;
-  --second-color: #be52f2;
+  --primary: #6979f8;
+  --primary-hover: #a5affb;
+  --second: #be52f2;
+  --second-hover: #dba5f5;
+  --success: #00c48c;
+  --success-hover: #7ddfc3;
+  --info: #0084f4;
+  --info-hover: #66b5f8;
+  --warning: #ffa26b;
+  --warning-hover: #ffc7a6;
+  --danger: #ff6457;
+  --danger-hover: #fdafbb;
 }
 * {
   box-sizing: border-box;
@@ -17,6 +26,6 @@ body {
 }
 
 a {
-  color: var(--primary-color);
+  color: var(--primary);
   text-decoration: none;
 }
