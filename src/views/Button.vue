@@ -51,11 +51,3 @@ const eventForButton = () => {
         <Button label="Click me" color="danger" @click="eventForButton"/>
     </div>
 </template>
-
-<style lang="scss" scoped>
-.line {
-    display: flex;
-    flex-wrap: wrap;
-    margin-bottom: 20px;
-}
-</style>

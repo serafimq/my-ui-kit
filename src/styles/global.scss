@@ -26,6 +26,15 @@ body {
 }
 
 a {
-  color: var(--primary);
+  color: #000000;
   text-decoration: none;
+}
+
+.line {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  &--block {
+    display: block;
+  }
 }
